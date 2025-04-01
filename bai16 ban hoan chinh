@@ -1,0 +1,102 @@
+<!DOCTYPE html>
+<html lang="vi">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Shop Hoa</title>
+    <link rel="stylesheet" href="laptrinhwebbai16.css">
+</head>
+<body>
+    <div class="header">
+        <img src="da01079128fe7d6ccc366f3b691156a9.jpg" alt="Banner Hoa" class="header-img">
+    </div>
+    <div class="menu">
+        <a href="#">Trang chủ</a>
+        <a href="#">Giới thiệu</a>
+        <a href="#">Album Ảnh</a>
+        <a href="#">Liên hệ</a>
+        <div class="search">
+            <label for="search">Tìm kiếm</label>
+            <input type="text" id="search" placeholder="Nhập từ khóa...">
+            <button>Tìm</button>
+        </div>
+    </div>
+    <div class="content">
+        <div class="main-layout">
+            <div class="category">
+                <h3>DANH MỤC</h3>
+                <ul>
+                    <li><a href="#">Hoa cưới</a></li>
+                    <li><a href="#">Hoa sinh nhật</a></li>
+                    <li><a href="#">Hoa khai trương</a></li>
+                    <li><a href="#">Hoa valentine</a></li>
+                </ul>
+            </div>
+            <div class="product-section">
+                <table class="product-table">
+                    <tr>
+                        <td>
+                            <div class="product">
+                                <img src="flower1.jpg" alt="Hoa 1">
+                                <p>FL322</p>
+                                <p class="price">450,000</p>
+                            </div>
+                        </td>
+                        <td>
+                            <div class="product">
+                                <img src="flower2.jpg" alt="Hoa 2">
+                                <p>FL322</p>
+                                <p class="price">350,000</p>
+                            </div>
+                        </td>
+                        <td>
+                            <div class="product">
+                                <img src="flower3.jpg" alt="Hoa 3">
+                                <p>FL322</p>
+                                <p class="price">400,000</p>
+                            </div>
+                        </td>
+                        <td>
+                            <div class="product">
+                                <img src="flower4.jpg" alt="Hoa 4">
+                                <p>FL322</p>
+                                <p class="price">420,000</p>
+                            </div>
+                        </td>
+                    </tr>
+                    <tr>
+                        <td>
+                            <div class="product">
+                                <img src="flower5.jpg" alt="Hoa 5">
+                                <p>FL322</p>
+                                <p class="price">410,000</p>
+                            </div>
+                        </td>
+                        <td>
+                            <div class="product">
+                                <img src="flower6.jpg" alt="Hoa 6">
+                                <p>FL322</p>
+                                <p class="price">470,000</p>
+                            </div>
+                        </td>
+                        <td>
+                            <div class="product">
+                                <img src="flower7.jpg" alt="Hoa 7">
+                                <p>FL322</p>
+                                <p class="price">490,000</p>
+                            </div>
+                        </td>
+                        <td>
+                            <div class="product">
+                                <img src="flower8.jpg" alt="Hoa 8">
+                                <p>FL322</p>
+                                <p class="price">500,000</p>
+                            </div>
+                        </td>
+                    </tr>
+                </table>
+            </div>
+        </div>
+    </div>
+</body>
+</html>
