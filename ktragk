@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Football Boots</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <div class="container">
+        <nav class="navbar">
+            <img src="https://upload.wikimedia.org/wikipedia/commons/a/a6/Logo_NIKE.svg" class="logo" alt="Nike logo">
+            <ul class="menu">
+                <li class="active">HOME</li>
+                <li>MEN</li>
+                <li>WOMEN</li>
+                <li>KIDS</li>
+            </ul>
+        </nav>
+
+        <div class="main">
+            <img class="main-shoe" src="https://static.nike.com/a/images/t_PDP_1280_v1/f_auto,q_auto:eco/a6488d64-c93a-4f29-91b9-cf35e7353957/zoom-rival-s-printing-track-field-distance-spikes-VZKk3x.png" alt="Main Shoe">
+            <div class="main-text">
+                <h1>FOOT BALL BOOTS</h1>
+                <p>Stay true to your team all day, every day, game day</p>
+                <button>Sign Up Now</button>
+            </div>
+        </div>
+
+        <div class="products">
+            <div class="product">
+                <img src="https://i.pinimg.com/originals/8b/34/cb/8b34cb593631c25d37681c0decbab19b.png" alt="Shoe 1">
+                <p>Nike HYPERVENOM Phantom FG</p>
+                <button>ADD TO CART</button>
+                <span>$380</span>
+            </div>
+            <div class="product">
+                <img src="https://www.soccerbible.com/media/105722/nike-hypervenom-phantom-3-neymar-3.jpg" alt="Shoe 2">
+                <p>Nike HYPERVENOM Phantom FG</p>
+                <button>ADD TO CART</button>
+                <span>$380</span>
+            </div>
+            <div class="product">
+                <img src="https://www.soccerbible.com/media/98044/nike-blueprint-phantom-gt-6.jpg" alt="Shoe 3">
+                <p>Nike HYPERVENOM Phantom FG</p>
+                <button>ADD TO CART</button>
+                <span>$380</span>
+            </div>
+        </div>
+    </div>
+</body>
+</html>
