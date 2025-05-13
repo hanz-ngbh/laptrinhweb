@@ -1,0 +1,100 @@
+ {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: Arial, sans-serif;
+}
+
+body {
+    line-height: 1.6;
+    background-color: #fff;
+}
+
+header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 15px 30px;
+    background-color: #fff;
+    border-bottom: 1px solid #ddd;
+}
+
+.logo {
+    font-size: 24px;
+    font-weight: bold;
+    color: #4CAF50;
+}
+
+nav {
+    list-style: none;
+  display: flex;
+  gap: 15px
+}
+nav .active {
+    color: red;
+}
+
+header input {
+    padding: 5px 10px;
+}
+
+.banner {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    color: white;
+    text-align: center;
+}
+
+.banner h2 {
+    font-size: 32px;
+}
+  
+.about {
+    padding: 40px 20px;
+    text-align: center;
+  }
+
+.about .features {
+    display: flex;
+    justify-content: space-around;
+    margin-top: 30px;
+  }
+
+.features .box {
+    width: 22%;
+  }
+
+.products {
+    padding: 40px 20px;
+    text-align: center;
+  }
+
+.filter button {
+    padding: 8px 15px;
+    margin: 10px 5px;
+    background-color: #a4d38d;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+}
+
+.product-list {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    gap: 30px;
+    margin-top: 30px;
+  }
+
+.product img {
+    width: 100%;
+    height: auto;
+}
+
+footer {
+    text-align: center;
+    padding: 15px;
+    background-color: #f1f1f1;
+    margin-top: 30px;
+  }
